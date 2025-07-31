@@ -5,6 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CyScam7</title>
   <style>
+    .floating-socials {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+      padding: 0.5rem;
+    }
+
+    .floating-socials .social-button {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: radial-gradient(circle at 30% 30%, #FFA500, #CC6600);
+      color: white;
+      padding: 0.4rem 0.7rem;
+      border-radius: 30px 0 0 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s;
+    }
+
+    .floating-socials .social-button img {
+      width: 20px;
+      height: 20px;
+      filter: drop-shadow(0 0 3px gold);
+    }
+
+    .floating-socials .social-button:hover {
+      transform: translateX(-5px) scale(1.05);
+      box-shadow: 0 0 15px gold;
+    }
+
     body {
       background: url('https://raw.githubusercontent.com/cyberiuscompany/CyScam7/refs/heads/main/Foto-fondo.jpg') no-repeat center center fixed;
       background-size: cover;
@@ -181,5 +218,19 @@
     dragon.style.transform = 'scale(1)';
   });
 </script>
+<div class="floating-socials">
+  <a href="https://github.com/cyberiuscompany" target="_blank" class="social-button">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"> GitHub
+  </a>
+  <a href="https://www.youtube.com/@CyberiusCompany" target="_blank" class="social-button">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/youtube.svg" alt="YouTube"> YouTube
+  </a>
+  <a href="https://paypal.me/CyberiusCompany" target="_blank" class="social-button">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/paypal.svg" alt="PayPal"> PayPal
+  </a>
+  <a href="https://disboard.org/server/1299310806617292922" target="_blank" class="social-button">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" alt="Discord"> Discord
+  </a>
+</div>
 </body>
 </html>
