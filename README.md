@@ -22,13 +22,11 @@
   </a>
 </p>
 
-# Plantilla
-Este es la plantilla que utilizo para la creación de mis proyectos/herramientas de ciberseguridad
+# CyScam7
+Aplicación Web que ofrece 7 Plantillas de Scamming super clásicas para propositos de estudios, analisis y prácticas personales
 
-Esplicación que hace la herramienta.
-
-- GitHub Pages si la herramienta tiene: https://cyberiuscompany.github.io/NOMBRE-HERRAMIENTA
-- DeepWiki de la herramienta: https://deepwiki.com/RELLENAR+INDEXAR
+- GitHub Pages si la herramienta tiene: https://cyberiuscompany.github.io/CyScam7
+  
 ---
 
 <p align="center">
