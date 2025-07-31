@@ -23,9 +23,9 @@
 </p>
 
 # CyScam7
-Aplicación Web que ofrece 7 Plantillas de Scamming super clásicas para propositos de estudios, analisis y prácticas personales
+Aplicación Web que ofrece 7 Plantillas de Scamming super clásicas para propositos de estudios, analisis y prácticas personales.
 
-- GitHub Pages si la herramienta tiene: https://cyberiuscompany.github.io/CyScam7
+- GitHub Pages: https://cyberiuscompany.github.io/CyScam7
   
 ---
 
